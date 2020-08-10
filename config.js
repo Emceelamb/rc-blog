@@ -22,7 +22,7 @@ module.exports = {
   ],
   author: {
     name: 'Mark Lam',
-    photo: '/photo.jpg',
+    photo: 'rc-blog/photo.jpg',
     bio: 'This is my Recurse Center Process Blog for the Fall 1 2020 batch!',
     contacts: {
       email: '',
