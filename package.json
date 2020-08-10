@@ -1,6 +1,6 @@
 {
   "version": "3.0.5",
-  "name": "recurse-process-blog",
+  "name": "rc-blog",
   "description": "A blog for my batch at recurse center",
   "main": "n/a",
   "scripts": {
@@ -16,7 +16,7 @@
     "test:coverage": "jest --coverage --config ./jest/jest-config.js",
     "test:watch": "jest --watch --config ./jest/jest-config.js"
   },
-  "repository": "https://github.com/emceelamb/rc-blog",
+  "repository": "https://github.com/Emceelamb/rc-blog",
   "author": "Emceelamb",
   "license": "MIT",
   "keywords": [
