@@ -2,7 +2,7 @@
 
 module.exports = {
   url: 'https://emceelamb.github.io',
-  pathPrefix: '/',
+  pathPrefix: '/rc-blog',
   title: 'Mark\'s RC Blog',
   subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
   copyright: '© All rights reserved.',
@@ -22,7 +22,7 @@ module.exports = {
   ],
   author: {
     name: 'Mark Lam',
-    photo: 'rc-blog/photo.jpg',
+    photo: '/photo.jpg',
     bio: 'This is my Recurse Center Process Blog for the Fall 1 2020 batch!',
     contacts: {
       email: '',
