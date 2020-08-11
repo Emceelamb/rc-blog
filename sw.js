@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-fe53921c200fb1be0154.js"
+    "url": "webpack-runtime-bb36457a37052dfe8535.js"
   },
   {
     "url": "styles.69c8303230227041b58c.css"
@@ -42,14 +42,22 @@ self.__precacheManifest = [
     "url": "532a2f07-b004a5d2f37fbac8de1a.js"
   },
   {
-    "url": "app-6c567d17acdfcd41d6be.js"
+    "url": "app-c6df6a30e2e9ddf6605c.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "1ec8e3c7f88afa471cc9c9c2de31846c"
+    "revision": "04d95fa3884344d41263cf7de2c7cb81"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-c9875e2473a7c518755f.js"
+  },
+  {
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "f6081b83111aea4128c98944b7fafccc"
+  },
+  {
+    "url": "page-data/app-data.json",
+    "revision": "33c8b1b4a7c40f7e770a72ed12221c54"
   },
   {
     "url": "polyfill-b2290f1301185c382ad0.js"
@@ -60,7 +68,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "6096e5d608b67621ac2c84cd926aa817"
+    "revision": "0e7edde3b96ee2a167fbd0a04ae930d7"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -147,12 +155,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/rc-blog`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-6c567d17acdfcd41d6be.js`))) {
+  if (!resources || !(await caches.match(`/rc-blog/app-c6df6a30e2e9ddf6605c.js`))) {
     return await fetch(event.request)
   }
 
@@ -165,7 +173,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/rc-blog/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
