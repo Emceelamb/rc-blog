@@ -3,11 +3,14 @@
 <url> <loc>https://emceelamb.github.io/rc-blog/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://emceelamb.github.io/rc-blog/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://emceelamb.github.io/rc-blog/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://emceelamb.github.io/rc-blog/pages/contacts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://emceelamb.github.io/rc-blog/posts/day0</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://emceelamb.github.io/rc-blog/posts/day02</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://emceelamb.github.io/rc-blog/posts/day01</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://emceelamb.github.io/rc-blog/pages/contacts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://emceelamb.github.io/rc-blog/posts/day03</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://emceelamb.github.io/rc-blog/posts/day02</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://emceelamb.github.io/rc-blog/tag/bugs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://emceelamb.github.io/rc-blog/tag/functional-programming</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://emceelamb.github.io/rc-blog/tag/haskell</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://emceelamb.github.io/rc-blog/tag/introduction</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://emceelamb.github.io/rc-blog/tag/linux</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://emceelamb.github.io/rc-blog/tag/pair-programming</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -15,6 +18,7 @@
 <url> <loc>https://emceelamb.github.io/rc-blog/tag/tailwind</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://emceelamb.github.io/rc-blog/tag/web-development</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://emceelamb.github.io/rc-blog/category/bugs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://emceelamb.github.io/rc-blog/category/functional-programming</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://emceelamb.github.io/rc-blog/category/introduction</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://emceelamb.github.io/rc-blog/category/pair-programming</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://emceelamb.github.io/rc-blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
