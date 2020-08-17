@@ -7,7 +7,7 @@ module.exports = {
   subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 10,
   googleAnalyticsId: '',
   useKatex: false,
   menu: [
@@ -23,7 +23,7 @@ module.exports = {
   author: {
     name: 'Mark Lam',
     photo: '/photo.jpg',
-    bio: 'This is my Recurse Center Process Blog for the Fall 1 2020 batch!',
+    bio: 'This is my process blog for the Fall 1 2020 batch of Recurse Center!',
     contacts: {
       email: '',
       facebook: '',
